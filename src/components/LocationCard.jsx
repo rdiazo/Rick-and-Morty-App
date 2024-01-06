@@ -12,4 +12,4 @@ const LocationCard = ({ location }) => {
     )
 }
 
-export default LocationCardhasta 
+export default LocationCard 
