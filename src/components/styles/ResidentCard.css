@@ -32,8 +32,8 @@
 
 .resident__status__circle {
     width: 18px;
-    aspect-ratio: 1.5;
-    border-radius: 5% 30% 15% 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
     background-color: #999;
 }
 
