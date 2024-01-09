@@ -1,0 +1,30 @@
+.resident__location__article {
+    background-color: #072226;
+}
+
+.resident__location {
+    text-align: center;
+    font-size: 2em;
+    max-height: 40%;
+    color: bisque;
+    
+}
+
+.resident__location__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+   
+}
+
+.resident__span {
+    flex-direction: column;
+    padding: 5%;
+    color: beige;
+}
+
+.resident__span__value {
+    padding: 5%; 
+    color: cornsilk;
+}

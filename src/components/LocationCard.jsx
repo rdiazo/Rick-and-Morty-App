@@ -1,12 +1,13 @@
+import "../components/styles/LocationCard.css"
 
 const LocationCard = ({ location }) => {
     return (
-        <article>
-            <div>{location?.name}</div>
-            <ul>
-                <li><span>Type: </span><span>{location?.type}</span></li>
-                <li><span>Dimension: </span><span>{location?.dimension}</span></li>
-                <li><span>Population: </span><span>{location?.residents.length}</span></li>
+        <article className="resident__location__article">
+            <div className="resident__location">{location?.name}</div>
+            <ul className="resident__location__list">
+                <li className="resident__location__item"><span className="resident__span">Type: </span><span className="resident__span__value">{location?.type}</span></li>
+                <li className="resident__location__item"><span className="resident__span">Dimension: </span><span className="resident__span__value">{location?.dimension}</span></li>
+                <li className="resident__location__item"><span className="resident__span">Population: </span><span className="resident__span__value">{location?.residents.length}</span></li>
             </ul>
         </article >
     )

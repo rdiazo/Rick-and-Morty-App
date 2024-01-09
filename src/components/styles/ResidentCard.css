@@ -66,6 +66,10 @@
     border-color: #fff3;
 }
 
+.resident__info {
+    background-color: blueviolet;
+}
+
 .resident__list {
     display: grid;
     gap: 0.8em;

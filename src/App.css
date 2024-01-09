@@ -5,14 +5,6 @@
     gap: 2em;
 }
 
-.resident__h1 {
-    font-size: 30px;
-}
-
-.resident__pp {
-    background-color: #05292e;
-}
-
 .resident__head {
     display: grid;
     grid-template-columns: repeat(auto-fill, 1fr);
@@ -20,23 +12,25 @@
 }
 
 .resident__img {
-    grid-column: 1 / span 3;  
+    grid-column: 1 / span 3;
     max-height: 15vw;
     border-radius: 0 0 1.2em 1.2em;
+
 }
 
-.resident__h1 {
-    grid-row: 2;
+.resident__form {
+    grid-row: 2s;
     grid-column: 2;
-    text-align: center;   
+    text-align: center;
+    padding: 1.2em;
+}
+
+.resident__input {
+    border-radius: 0.6em 0 0 0.6em;
 }
 
 .resident__button {
-    grid-row: 4;
-    grid-column: 2;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    background-color: blue;
+    border-radius: 0 0.6em 0.6em 0;
+    background-color: greenyellow;
 }
+

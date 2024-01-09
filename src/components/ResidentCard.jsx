@@ -21,18 +21,20 @@ const ResidentCard = ({ url }) => {
             <section className="resident__body">
                 <h3 className="resident__name">{resident?.name} </h3>
                 <hr className="resident__hr" />
-                <ul className="resident__list">
-                    <li className="resident__item">
-                        <span className="resident__label">Specie </span>
-                        <span className="resident__value">{resident?.species} </span></li>
-                    <li className="resident__item">
-                        <span className="resident__label">Origen </span>
-                        <span className="resident__value">{resident?.origin.name} </span></li>
-                    <li className="resident__item">
-                        <span className="resident__label">Eppisodes where appear </span>
-                        <span className="resident__value">{resident?.episode.length}</span>
-                    </li>
-                </ul>
+                
+                    <ul className="resident__list">
+                        <li className="resident__item">
+                            <span className="resident__label">Specie </span>
+                            <span className="resident__value">{resident?.species} </span></li>
+                        <li className="resident__item">
+                            <span className="resident__label">Origen </span>
+                            <span className="resident__value">{resident?.origin.name} </span></li>
+                        <li className="resident__item">
+                            <span className="resident__label">Eppisodes where appear </span>
+                            <span className="resident__value">{resident?.episode.length}</span>
+                        </li>
+                    </ul>
+    
             </section>
         </article>
     );
